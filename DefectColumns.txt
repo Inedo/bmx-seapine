@@ -1,0 +1,150 @@
+Record ID
+Number
+Summary
+Product
+Type
+Priority
+Status
+Date Found
+Found by
+Reproducible
+Version Found
+Test Config
+Component
+Reference
+Number Reported
+Date Entered
+Entered by
+Severity
+Has Workaround
+Has Release Notes
+Date Modified
+Found by Company
+Disposition
+Found by Group
+Has Attachments
+Date Created
+Created By
+Creation Method
+Modified By
+Description
+Workaround
+Steps to Reproduce
+Other Hardware and Software
+Has Source Code Files
+State Attribute
+Currently Assigned To
+Current Assignment Date
+Current Assignment By
+Closed By
+Closed Date
+Has Links
+Has Broken Links
+Is Parent in Link
+Is Child in Link
+Has Emails
+Found by Division
+Found by Department
+Is Marked As Suspect
+Folders
+Number of Links
+Number of Broken Links
+Link IDs
+Estimated Hours
+Actual Hours
+Remaining Hours
+Percent Done
+Variance
+Story Points
+System Comment By User
+System Comment Date
+System Comment Notes
+System Comment Resulting State
+Assigned By User
+Assign Date
+Assign Notes
+Assign Resulting State
+Assigned To User
+Estimate By User
+Estimate Date
+Estimate Notes
+Estimate Resulting State
+Estimated Effort
+Estimate Version
+Estimate Completion Date
+Enter Work By User
+Enter Work Date
+Enter Work Notes
+Enter Work Resulting State
+Enter Work Actual Effort (Hours)
+Enter Work Remaining Time
+Fixed By User
+Fix Date
+Fix Notes
+Fix Resulting State
+Hours to Fix
+Fix Affects Documentation
+Fix Affects Test Plan
+Fix Resolution
+Fix Version
+Fix Remaining Time
+Release to Testing By User
+Release to Testing Date
+Release to Testing Notes
+Release to Testing Resulting State
+Release to Testing Version
+Verify By User
+Verify Date
+Verify Notes
+Verify Resulting State
+Verify Version
+Release to Customer Testing By User
+Release to Customer Testing Date
+Release to Customer Testing Notes
+Release to Customer Testing Resulting State
+Release to Customer Testing Version
+Customer Verify By User
+Customer Verify Date
+Customer Verify Notes
+Customer Verify Resulting State
+Customer Verify Version
+Force Close By User
+Force Close Date
+Force Close Notes
+Force Close Resulting State
+Force Close Resolution
+Re-Open By User
+Re-Open Date
+Re-Open Notes
+Re-Open Resulting State
+Release Notes By User
+Release Notes Date
+Release Notes Notes
+Release Notes Resulting State
+Release Notes Release Version
+Comment By User
+Comment Date
+Comment Notes
+Comment Resulting State
+Has A Related Items Link
+Has A Broken Related Items Link
+Has A Parent/Child Link
+Has A Broken Parent/Child Link
+Is A Parent/Child Link Parent
+Is A Parent/Child Link Child
+Has A Story Tested By Link
+Has A Broken Story Tested By Link
+Is A Story Tested By Link Parent
+Is A Story Tested By Link Child
+Has A Related Stories/Tasks Link
+Has A Broken Related Stories/Tasks Link
+Has A Story Source Link
+Has A Broken Story Source Link
+Has A Dependency Link
+Has A Broken Dependency Link
+Has A Shared Test Case Steps Link
+Has A Broken Shared Test Case Steps Link
+Is A Shared Test Case Steps Link Parent
+Is A Shared Test Case Steps Link Child
+Has Calculation Error
+Date Entered State

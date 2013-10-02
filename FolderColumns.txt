@@ -1,0 +1,14 @@
+Record ID
+Name
+Description
+Access
+Path
+Number of Items
+Start Date
+End Date
+Working Hours in Period
+Users Available
+Available Man Hours
+Target Story Points
+Notes
+Web View URL

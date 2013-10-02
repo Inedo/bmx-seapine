@@ -1,0 +1,148 @@
+Record ID
+Number
+Summary
+Requirement Type
+Date Entered
+Entered By
+Importance
+Description
+State Attribute
+Status
+Has File Attachments
+Has Source Code Files
+Document List
+Number Of Requirement Documents
+Lock Reason
+Is Shared
+Creation Method
+Created By
+Date Created
+Last Modified By
+Date Modified
+Currently Assigned To
+Currently Assigned By
+Currently Assigned Date
+Closed By
+Closed Date
+Has Links
+Has Broken Links
+Is Parent in Link
+Is Child in Link
+Link Child Number
+Link Peer Number
+Link Parent Number
+Related Link Number
+Has Emails
+Version
+Is Locked
+Number of Versions
+Is Marked As Suspect
+Folders
+Tag
+Number of Links
+Number of Broken Links
+Link IDs
+Estimated Hours
+Actual Hours
+Remaining Hours
+Percent Done
+Variance
+Story Points
+Has Calculation Error
+Date Entered State
+System Comment By User
+System Comment Date
+System Comment Notes
+System Comment Resulting State
+Owners
+Origin
+Source
+Risk
+Difficulty
+Product
+Release
+Assigned By User
+Assign Date
+Assign Notes
+Assign Resulting State
+Assigned To User
+Assign Due Date
+Estimate By User
+Estimate Date
+Estimate Notes
+Estimate Resulting State
+Estimated Effort
+Estimate Completion Date
+Enter Work By User
+Enter Work Date
+Enter Work Notes
+Enter Work Resulting State
+Enter Work Actual Effort (Hours)
+Enter Work Remaining Time
+Ready for Review By User
+Ready for Review Date
+Ready for Review Notes
+Ready for Review Resulting State
+Ready for Review Due Date
+No Changes Needed By User
+No Changes Needed Date
+No Changes Needed Notes
+No Changes Needed Resulting State
+Review Note By User
+Review Note Date
+Review Notes
+Review Note Resulting State
+Note Type
+Ready for Approval By User
+Ready for Approval Date
+Ready for Approval Notes
+Ready for Approval Resulting State
+Ready for Approval Due Date
+Approve By User
+Approve Date
+Approve Notes
+Approve Resulting State
+Rejected By User
+Reject Date
+Reject Notes
+Reject Resulting State
+Needs Change By User
+Needs Change Date
+Needs Change Notes
+Needs Change Resulting State
+Dependencies Marked Suspect By
+Dependencies Marked Suspect Date
+Dependencies Marked Suspect Notes
+Dependencies Marked Suspect Resulting State
+Mark Dependent Items as Suspect
+Implemented By User
+Implemented Date
+Implemented Notes
+Implemented Resulting State
+Obsolete By User
+Obsolete Date
+Obsolete Notes
+Obsolete Resulting State
+Obsolete Reason
+Re-Open By User
+Re-Open Date
+Re-Open Notes
+Re-Open Resulting State
+Comment By User
+Comment Date
+Comment Notes
+Comment Resulting State
+Has A Related Items Link
+Has A Broken Related Items Link
+Has A Parent/Child Link
+Has A Broken Parent/Child Link
+Is A Parent/Child Link Parent
+Is A Parent/Child Link Child
+Has A Requirement Tested By Link
+Has A Broken Requirement Tested By Link
+Is A Requirement Tested By Link Parent
+Is A Requirement Tested By Link Child
+Has A Related Requirements Link
+Has A Broken Related Requirements Link
+Has A Requirement Source Link
+Has A Broken Requirement Source Link
