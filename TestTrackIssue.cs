@@ -7,7 +7,7 @@ namespace Inedo.BuildMasterExtensions.Seapine
     /// Represents a TestTrack Pro defect.
     /// </summary>
     [Serializable]
-    internal sealed class TestTrackIssue : Issue
+    internal sealed class TestTrackIssue : IssueTrackerIssue
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="TestTrackIssue"/> class.

@@ -16,9 +16,10 @@ namespace Inedo.BuildMasterExtensions.Seapine
     /// </summary>
     [ProviderProperties(
         "Surround SCM",
-        "Supports Surround SCM 2010-2011; requires Surround SCM command line client to be installed.")]
+        "Supports Surround SCM 2010-2011; requires Surround SCM command line client to be installed.",
+        RequiresTransparentProxy = true)]
     [CustomEditor(typeof(SurroundProviderEditor))]
-    public sealed class SurroundProvider : SourceControlProviderBase, IVersioningProvider
+    public sealed class SurroundProvider : SourceControlProviderBase, ILabelingProvider
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="SurroundProvider"/> class.

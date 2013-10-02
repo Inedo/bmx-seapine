@@ -7,14 +7,14 @@ namespace Inedo.BuildMasterExtensions.Seapine
     /// Represents a TestTrack project.
     /// </summary>
     [Serializable]
-    internal sealed class TestTrackProject : CategoryBase
+    internal sealed class TestTrackProject : IssueTrackerCategory
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="TestTrackProject"/> class.
         /// </summary>
         /// <param name="name">The project name.</param>
         public TestTrackProject(string name)
-            : base(name, name, null)
+            : base(name, name)
         {
         }
     }

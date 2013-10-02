@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
 using Inedo.BuildMaster;
 using Inedo.BuildMaster.Extensibility.Providers;
 using Inedo.BuildMaster.Extensibility.Providers.IssueTracking;
 using Inedo.BuildMaster.Web;
-using Inedo.Linq;
 
 namespace Inedo.BuildMasterExtensions.Seapine
 {
@@ -56,7 +56,7 @@ namespace Inedo.BuildMasterExtensions.Seapine
             }
         }
 
-        public override Issue[] GetIssues(string releaseNumber)
+        public override IssueTrackerIssue[] GetIssues(string releaseNumber)
         {
             var releaseFilterRegex = new Regex(Util.CoalesceStr(this.ReleaseFilter, "%RELNO%").Replace("%RELNO%", Regex.Escape(releaseNumber)), RegexOptions.IgnoreCase);
             var cookie = OpenProject();
@@ -76,7 +76,7 @@ namespace Inedo.BuildMasterExtensions.Seapine
 
                 // Return if there are no matching folders
                 if (releaseFolderNames.Count == 0)
-                    return new Issue[0];
+                    return new IssueTrackerIssue[0];
 
                 var tables = this.Soap.getTableList(cookie).Select(t => t.name).ToList();
                 
@@ -109,7 +109,7 @@ namespace Inedo.BuildMasterExtensions.Seapine
                 this.Soap.DatabaseLogoff(cookie);
             }
         }
-        public override bool IsIssueClosed(Issue issue)
+        public override bool IsIssueClosed(IssueTrackerIssue issue)
         {
             return ((TestTrackIssue)issue).IsClosed;
         }
@@ -132,7 +132,7 @@ namespace Inedo.BuildMasterExtensions.Seapine
         {
             return "Connects to the TestTrack Pro or TestTrack RM system.";
         }
-        public CategoryBase[] GetCategories()
+        public IssueTrackerCategory[] GetCategories()
         {
             var projects = this.Soap.getProjectList(this.UserName, this.Password);
 
